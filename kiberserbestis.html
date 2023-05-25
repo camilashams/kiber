@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamsizada Camila</title>
+</head>
+<body style="text-align: center;">
+  <h1>Wireshark tool</h1>
+    <p><b><ins>Wireshark</ins></b> - Wireshark proqramı təhlükəsizlik və şəbəkə kimi müxtəlif sahələrdə istifadə olunan açıq mənbəli və pulsuz şəbəkə trafikinə nəzarət proqramıdır.
+     O, şəbəkə təlimi, təhlil, rabitə protokolunun inkişafı və şəbəkə problemlərinin aradan qaldırılması kimi müxtəlif məqsədlər üçün istifadə olunur. 
+     Bu proqram Windows, Linux və Unix daxil olmaqla müxtəlif platformalarda işləyir. Siz Wireshark proqramının köməyi ilə şəbəkə paketlərini tuta 
+     və onları dənəvər səviyyədə göstərə bilərsiniz. Bu alət sizə şəbəkə trafikinizi yoxlamağa və süzgəcdən keçirməyə, problemlərin əsas səbəbini böyütməyə, 
+     şəbəkə təhlilinə və nəticədə şəbəkə təhlükəsizliyinə kömək etməyə imkan verir.<br> Wireshark 1998-ci ildə Gerald Combs tərəfindən yaradılmışdır və
+      şəbəkə mütəxəssisləri və proqram təminatı tərtibatçılarından ibarət qlobal təşkilatdır.
+    Wiresharkvə onu yeni şəbəkə texnologiyaları və şifrələmə üsulları ilə yeniləyir.</p>
+   <h2>Wareshark-ın quraşdırılması:</h2> 
+   <p>İlk öncə terminal üzərindən Wareshark-ı quraşdırmaq üçün aşağdakı addımları ardıcıl edirəm.</p>
+   <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-24 171105.png" weidth="490" height="400">
+   <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-24 171123.png" weidth="490" height="400">
+   <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-24 171138.png" weight="490" height="400">
+   <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-24 171223.png" weidth="490" height="400">
+    <p>wireshark -h əmrini verdikdə Wireshark proqramını yoxlaya və sistemdəki şəbəkə trafikini təhlil edə bilirik.</p>
+    <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-23 145255.png" weight="490" height="400">
+    <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-23 145320.png" weight="490" height="400">
+    <h2>Şəbəkə protokolu analizatoru:</h2>
+    <p><ins>Şəbəkə protokolu analizatoru</ins> - bir şəbəkədən keçən trafikin interaktiv bir şəkildə, real vaxt 
+        rejimində tutulmasına və analiz edilməsinə imkan verir.</p>
+        <ul>
+            <li><b>Siyahıda çəkmək istədiyim interfeysi seçirəm.</b><br>
+            Ümumiyyətlə, əgər kompüteriniz Ethernet vasitəsilə qoşulubsa, bu “eth0” və ya Wi-Fi bağlantısından istifadə edirsinizsə,
+             “wlan0” olacaqdır.</li>
+            <li><b>Üst paneldəki ilk işarəni vururam.</b><br>
+                Həmçinin ana səhifədəki interfeys adına iki dəfə klikləyə, çəkmə menyusundan istifadə edə və ya sadəcə CTRL+E düymələrini sıxa bilərəm.
+            </li>
+        </ul>
+        <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-23 132843.png" weidth="490" height="400">
+        <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-23 180032.png" weidth="490" height="400">
+        <h2>Paket təhlili:</h2>
+<p>Bu zaman ekran üç əsas hissəyə bölünür: 
+    <ul><li><b>Paket siyahısı:</b> Burda mənbə, təyinat və protokol kimi makro məlumatı görünür. Məsələn, müəyyən bir IP ünvanından şübhəli 
+        HTTP fəaliyyəti axtarıramsa, əlaqəsi olmayan hər şeyi (DNS sorğuları və digər IP ünvanları kimi) atlaya bilərəm.</li>
+    <li><b>Paket təfərrüatları:</b> Bir paket seçilən zaman onun məzmununu az və ya çox oxunaqlı mətn formatında görünür. </li>
+<li><b>Paket baytları:</b> Bayt və onaltılıq formatlı dəqiq paket məzmunu görünür.</li>
+</ul>
+<h2>Filtrlər</h2>
+<p>Ancaq Wireshark-da xüsusi bir şey axtarılan zaman əsas məsələ paketlər siyahısını analizdən keçirməkdir.
+    Buna görə də Wireshark ekranın yuxarısında filtlər yaxın bir sahəni ehtiva edir, burada yalnız potensial olaraq maraqlı
+     olan paketləri göstərmək (və ya onları istisna etmək) üçün düstur daxil edə bilinir.<br>
+    IP ünvanının analizi</p>
+     <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-23 175041.png" weight="590" height="350">
+     <p>Portları filtrləyə bilərəm.<br>
+    Mənbə və ya təyinat IP ünvanlarını filtrləyə bilərəm.</p>
+        <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-25 145713.png" weidth="490" height="400">
+        <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-23 175333.png" weidth="490" height="400">
+        <h2>Təkrar ötürmə problemi</h2>
+        <p>Wireshark tez-tez daha mürəkkəb şəbəkə problemlərini müəyyən etmək üçün istifadə olunur. 
+            Şəbəkə çoxlu təkrar ötürmələrlə qarşılaşırsa, sıxlıq yarana bilər.</p>
+            <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-24 233147.png" weight="490" height="400">
+            <h2>Rəng kodlaması</h2>
+        <p>Wireshark ümumi mənada rəng kodlamasını tətbiq etməklə paket növlərini müəyyən etməyə kömək etməyə çalışır. 
+            Aşağıdakı cədvəl əsas paket növlərinə verilən standart rəngləri təsvir edir.</p>
+                  <table border="1" style="width:50%">
+                <tr>
+                    <th><b>Wireshark-da rəng</b></th>
+                    <th><b>Paket Tipi</b></th>
+                </tr>
+                <tr>
+                    <th>Açıq bənövşəyi</th>
+                    <th>TCP</th>
+                </tr>
+                <tr>
+                    <th>Açıq mavi</th>
+                    <th>UDP</th>
+                </tr>
+                <tr>
+                    <th>Qara</th>
+                    <th>Səhvləri olan paketlər</th>
+                </tr>
+                <tr>
+                <th>Açıq yaşıl</th>
+                <th>HTTP trafiki</th>
+            </tr>
+            <tr>
+                <th>Açıq-sarı</th>
+                <th>Server Mesaj Blokları (SMB) və NetBIOS daxil olmaqla Windows-a xüsusi trafik</th>
+            </tr>
+            <tr>
+                <th>Tünd sarı</th>
+                <th>Marşrutlaşdırma</th>
+            </tr>
+            <tr>
+                <th>Tünd Boz</th>
+                <th>TCP SYN, FIN və ACK trafiki</th>
+            </tr>
+            </table>
+            <p>Defolt rəngləmə sxemi aşağıdakı kimidir.</p>
+          <img src="C:\Users\ASUS\Pictures\Screenshot 2023-05-24 233433.png" weight="490" height="400">
+            </body>
+</html>
